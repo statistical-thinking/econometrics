@@ -1,6 +1,5 @@
 # Autoren
-Prof. Dr. Dennis Klinkhammer
-Prof. Dr. Alexander Spermann
+Prof. Dr. Dennis Klinkhammer<br>Prof. Dr. Alexander Spermann
 
 # Benötigte Packages
 AER
