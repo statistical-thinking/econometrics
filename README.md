@@ -1,13 +1,8 @@
-# Autoren
-Prof. Dr. Dennis Klinkhammer<br>
-Prof. Dr. Alexander Spermann
+# Titel
+Einführung in die empirische Kausalanalyse mit R und Machine Learning
 
-# Benötigte Packages
-AER<br>
-caret<br>
-cluster<br>
-corrplot<br>
-foreign<br>
-lmtest<br>
-sparcl<br>
-stargazer
+# Autoren
+Prof. Dr. Dennis Klinkhammer (2020); Prof. Dr. Alexander Spermann (2020)
+
+# Benötigte Packages in R
+AER; caret; cluster; corrplot; foreign; lmtest; sparcl; stargazer
