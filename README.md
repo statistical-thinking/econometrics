@@ -1,8 +1,5 @@
-# Titel
+# Programmierbeispiele zum Lehrbuch
 Einführung in die empirische Kausalanalyse mit R und Machine Learning
-
-# Untertitel
-Programmierbeispiele
 
 # Autoren
 Prof. Dr. Dennis Klinkhammer<br>
