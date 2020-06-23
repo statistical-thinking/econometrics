@@ -48,7 +48,7 @@ regression <- lm(re78 ~ train, data = jobtrain)
 summary(regression)
 
 # Vergleichbarkeit von Programm- und Kontrollgruppe
-mean(age ~ train, data = tobtrain)
+mean(age ~ train, data = jobtrain)
 t.test(age ~ train, data = jobtrain)
-mean(educ ~ train, data = tobtrain)
+mean(educ ~ train, data = jobtrain)
 t.test(educ ~ train, data = jobtrain)
