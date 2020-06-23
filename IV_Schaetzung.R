@@ -3,15 +3,15 @@
 ################################
 
 # Zusatzprogramm FOREIGN installieren und aktivieren
-install.packages("foreign", depenedencies=TRUE)
+install.packages("foreign", dependencies=TRUE)
 library(foreign)
 
 # Zusatzprogramm AER installieren und aktivieren
-install.packages("AER", depenedencies=TRUE)
+install.packages("AER", dependencies=TRUE)
 library(AER)
 
 # Zusatzprogramm STARGAZER installieren und aktivieren
-install.packages("stargazer", depenedencies=TRUE)
+install.packages("stargazer", dependencies=TRUE)
 library(stargazer)
 
 # Datensatz von Server laden
