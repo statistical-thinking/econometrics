@@ -3,7 +3,7 @@
 #####################
 
 # Datensatz von Server laden
-RCT <- read.csv("http://www.statistical-thinking.de/r-daten/RCT.csv", head=T, sep=";", dec=".")
+RCT <- read.csv("http://www.statistical-thinking.de/r-daten/RCT.csv", head=T, sep=";", dec=".", fileEncoding="UTF-8-BOM")
 head(RCT)
 
 # Vergleichbarkeit von Programm- und Kontrollgruppe
