@@ -2,6 +2,13 @@
 # t-Test #
 ##########
 
+# Zusatzprogramm CAR installieren und aktivieren
+install.packages("car", dependencies=TRUE)
+library(car)
+
+# Variable Education in binäre Variable überführen
+Binary_Education <- car::recode(swiss$Education, "0:10 = '0'; 11:100 ='1'")
+
 # t-Test für Agriculture und Binary_Education
 t.test(swiss$Agriculture~Binary_Education)
 
