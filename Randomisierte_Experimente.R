@@ -47,6 +47,9 @@ lm(re78 ~ train, data = jobtrain)
 regression <- lm(re78 ~ train, data = jobtrain)
 summary(regression)
 
+# Datensatz als Data Frame anlegen (Begründung: STATA Datensatz)
+jobtrain <- as.data.frame(jobtrain)
+
 # Vergleichbarkeit von Programm- und Kontrollgruppe
 mean(age ~ train, data = jobtrain)
 t.test(age ~ train, data = jobtrain)
