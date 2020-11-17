@@ -10,5 +10,5 @@ head(RDD)
 plot_RDD <- plot(Einkommen ~ Alter, data = RDD)
 
 # Erweitertes Regressionsmodell
-Ergebnis_RDD <- lm(Einkommen ~ Alter, data = RDD)
+Ergebnis_RDD <- lm(Einkommen ~ Dummy, data = RDD)
 summary(Ergebnis_RDD)
