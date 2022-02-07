@@ -10,7 +10,7 @@ library(caret)
 x <- iris[,1:4]
 y <- iris[,5]
 
-# Grafische Darsrellung der Features
+# Grafische Darstellung der Features
 featurePlot(x=x, y=y, plot="box")
 
 # Manuelle Klassifikation von Schwertlilienarten
